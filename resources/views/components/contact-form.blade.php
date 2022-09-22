@@ -17,7 +17,8 @@
                 <p class="text-gray-500 mb-2">info@gmail.com</p>
             </div>
             <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-                <form>
+                <form method="POST" action="{{route('contact.create')}}">
+                    @csrf
                     <div class="form-group mb-6">
                         <input type="text" class="form-control block
               w-full
@@ -33,7 +34,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
-                               placeholder="Name">
+                               placeholder="Name" name="name">
                     </div>
                     <div class="form-group mb-6">
                         <input type="email" class="form-control block
@@ -50,7 +51,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
-                               placeholder="Email address">
+                               placeholder="Email address" name="email">
                     </div>
                     <div class="form-group mb-6">
             <textarea class="
@@ -69,7 +70,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-            " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+            " id="exampleFormControlTextarea13" rows="3" placeholder="Message" name="message"></textarea>
                     </div>
                     <button type="submit" class="
             w-full
