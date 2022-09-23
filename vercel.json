@@ -41,5 +41,7 @@
         "MAIL_FROM_ADDRESS": "acervo@digital.com",
         "MAIL_FROM_NAME": "${APP_NAME}"
     },
-    "devCommand": "npm run dev"
+    "devCommand": "npm run dev",
+    "buildCommand": "npm run build"
 }
+
