@@ -32,7 +32,7 @@ class ContactController extends Controller
             $request->message
         ));
 
-        return to_route('contact');
+        return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
     }
 
     /**
