@@ -20,7 +20,6 @@
                 <form method="POST" action="{{ route('contact.create') }}">
                     @csrf
                     <div class="form-group mb-6">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="text" class="form-control block w-full px-3 py-1.5
               text-base
               font-normal
