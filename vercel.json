@@ -15,10 +15,10 @@
         }
     ],
     "env": {
-        "APP_NAME": "Vercel Laravel",
+        "APP_NAME": "Acervo Digital",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://php-laravel.vercel.app",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://acervo-digital.vercel.app",
         "VERCEL_DEMO_MODE": "true",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -30,6 +30,14 @@
         "SESSION_DRIVER": "array",
         "VIEW_COMPILED_PATH": "/tmp/views",
         "SSR_TEMP_PATH": "/tmp/ssr",
-        "NODE_PATH": "node"
+        "NODE_PATH": "node",
+        "MAIL_MAILER": "smtp",
+        "MAIL_HOST": "smtp-relay.sendinblue.com",
+        "MAIL_PORT": "587",
+        "MAIL_USERNAME": "di3g0dasp@gmail.com",
+        "MAIL_PASSWORD": "1tIZdE68yRSwQTVg",
+        "MAIL_ENCRYPTION": "null",
+        "MAIL_FROM_ADDRESS": "acervo@digital.com",
+        "MAIL_FROM_NAME": "${APP_NAME}"
     }
 }
