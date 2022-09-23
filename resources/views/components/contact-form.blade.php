@@ -17,13 +17,11 @@
                 <p class="text-gray-500 mb-2">info@gmail.com</p>
             </div>
             <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-                <form method="POST" action="{{route('contact.create')}}">
+                <form method="POST" action="{{ route('contact.create') }}">
                     @csrf
                     <div class="form-group mb-6">
-                        <input type="text" class="form-control block
-              w-full
-              px-3
-              py-1.5
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <input type="text" class="form-control block w-full px-3 py-1.5
               text-base
               font-normal
               text-gray-700
