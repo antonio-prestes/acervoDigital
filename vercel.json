@@ -39,7 +39,7 @@
         "MAIL_PASSWORD": "1tIZdE68yRSwQTVg",
         "MAIL_ENCRYPTION": "null",
         "MAIL_FROM_ADDRESS": "acervo@digital.com",
-        "MAIL_FROM_NAME": "${APP_NAME}"
+        "MAIL_FROM_NAME": "Acervo Digital"
     },
     "devCommand": "npm run dev",
     "buildCommand": "npm run build"
