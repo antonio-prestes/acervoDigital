@@ -15,6 +15,7 @@
         }
     ],
     "env": {
+        "APP_KEY": "base64:RwOdy+Y/qkr1OQ410z8ljPsidbOOheOTvlksmYpFFWU=",
         "APP_NAME": "Acervo Digital",
         "APP_ENV": "production",
         "APP_DEBUG": "true",
